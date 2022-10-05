@@ -16,6 +16,7 @@ Contributors
     Kevin Petit, Arm Ltd. (kevin.petit 'at' arm.com)
     Tobias Hector, AMD
     Graeme Leese, Broadcom Corporation
+    Georg Lehmann
 
 Status
 
@@ -233,20 +234,20 @@ Modifications to the OpenGL Shading Language Specification, Version 4.60
 
       If GL_EXT_shader_explicit_arithmetic_types_int64 is enabled:
 
-      uint64_t dotAccSatEXT(u64vec2 a, u64vec2 b, uint c)
-      int64_t dotAccSatEXT(i64vec2 a, u64vec2 b, int c)
-      int64_t dotAccSatEXT(u64vec2 a, i64vec2 b, int c)
-      int64_t dotAccSatEXT(i64vec2 a, i64vec2 b, int c)
+      uint64_t dotAccSatEXT(u64vec2 a, u64vec2 b, uint64_t c)
+      int64_t dotAccSatEXT(i64vec2 a, u64vec2 b, int64_t c)
+      int64_t dotAccSatEXT(u64vec2 a, i64vec2 b, int64_t c)
+      int64_t dotAccSatEXT(i64vec2 a, i64vec2 b, int64_t c)
 
-      uint64_t dotAccSatEXT(u64vec3 a, u64vec3 b, uint c)
-      int64_t dotAccSatEXT(i64vec3 a, u64vec3 b, int c)
-      int64_t dotAccSatEXT(u64vec3 a, i64vec3 b, int c)
-      int64_t dotAccSatEXT(i64vec3 a, i64vec3 b, int c)
+      uint64_t dotAccSatEXT(u64vec3 a, u64vec3 b, uint64_t c)
+      int64_t dotAccSatEXT(i64vec3 a, u64vec3 b, int64_t c)
+      int64_t dotAccSatEXT(u64vec3 a, i64vec3 b, int64_t c)
+      int64_t dotAccSatEXT(i64vec3 a, i64vec3 b, int64_t c)
 
-      uint64_t dotAccSatEXT(u64vec4 a, u64vec4 b, uint c)
-      int64_t dotAccSatEXT(i64vec4 a, u64vec4 b, int c)
-      int64_t dotAccSatEXT(u64vec4 a, i64vec4 b, int c)
-      int64_t dotAccSatEXT(i64vec4 a, i64vec4 b, int c)
+      uint64_t dotAccSatEXT(u64vec4 a, u64vec4 b, uint64_t c)
+      int64_t dotAccSatEXT(i64vec4 a, u64vec4 b, int64_t c)
+      int64_t dotAccSatEXT(u64vec4 a, i64vec4 b, int64_t c)
+      int64_t dotAccSatEXT(i64vec4 a, i64vec4 b, int64_t c)
 
       The function dotAccSatEXT() computes the dot product of the two input
       vectors <a> and <b> and then returns the result of the saturating addtion
