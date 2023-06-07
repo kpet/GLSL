@@ -24,7 +24,7 @@ Status
 
 Version
 
-    Last Modified:      October 3, 2022
+    Last Modified:      June 7, 2023
     Revision:           1
 
 Dependencies
@@ -32,8 +32,8 @@ Dependencies
     This extension can be applied to OpenGL GLSL versions 4.50
     (#version 450) and higher.
 
-    This extension can be applied to OpenGL ES ESSL versions 3.20
-    (#version 320) and higher.
+    This extension can be applied to OpenGL ES ESSL versions 3.00
+    (#version 300) and higher.
 
     This extension is written against the OpenGL Shading Language
     Specification, version 4.60, dated July 23, 2017.
@@ -62,7 +62,7 @@ Overview
     The dotPacked4x8EXT and dotPacked4x8AccSatEXT functions require support for
     the DotProductInput4x8BitPackedKHR SPIR-V capability.
 
-    All functions with ivec8 or uvec8 input vectors require support for the
+    All functions with i8vec4 or u8vec4 input vectors require support for the
     DotProductInput4x8BitKHR SPIR-V capability.
 
     All functions with input vectors of other types require support for the
